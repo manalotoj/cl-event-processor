@@ -1,0 +1,22 @@
+{
+  "name": "cl-event-processor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cl-event-processor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "connect-timeout": "^1.7.0",
+    "mongodb-queue": "^1.0.1",
+    "node-gyp": "^3.0.3",
+    "promise": "^7.0.4",
+    "request-promise": "^0.4.3",
+    "sv-api": "^1.0.11",
+    "timer-stopwatch": "^0.1.6",
+    "winston": "^1.0.1"
+  }
+}

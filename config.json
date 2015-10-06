@@ -1,0 +1,22 @@
+{
+	"logging" : {
+		"directory" : "./logs"
+	},
+	"oauthWrapRequest" : {
+		"url":"",
+		"creds":{"uid":"", "pwd":""},
+		"wrapScope":""
+	},
+	"svApi" : {
+		"rootUrl" : ""
+	},
+	"conn" : "mongodb://localhost:27017/sv-event-notifications",
+	"outputDir" : "./target",	
+	"queueing" : {
+		"maxRetries" : "5",
+		"visibility" : "30",
+		"queueName" : "queue",
+		"deadQueueName" : "deadQueue"
+	},
+	"sleepInterval" : "15000"
+}
